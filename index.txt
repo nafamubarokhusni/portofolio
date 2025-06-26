@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Husni Na'fa Mubarok
+Husni Na'fa Mubarok
+Data Scientist
 
 Show Contacts
 
 Email
-richard@example.com
+nafamubarokhusni@gmail.com
 
 Phone
-+1 (213) 352-2795
++6285158112916
 
 Birthday
-June 23, 1982
+April 15, 2003
 
 Location
-Sacramento, California, USA
+Garut, West Java, Indonesia
 
 # navbar
 
