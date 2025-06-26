@@ -1154,34 +1154,28 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form id="contactForm" class="form" data-form>
-
+          <form action="https://fabform.io/f/3ZgZpL3" method="POST" class="form" data-form>
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <label>
+          <span class="sr-only">Full name</span>
+          <input type="text" name="name" class="form-input" placeholder="Full name" required>
+              </label>
+              <label>
+          <span class="sr-only">Email address</span>
+          <input type="email" name="email" class="form-input" placeholder="Email address" required>
+              </label>
             </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" data-form-btn>
+            <label>
+              <span class="sr-only">Your Message</span>
+              <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+            </label>
+            <button class="form-btn" type="submit">
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
-
           </form>
 
         </section>
-        <script>
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-          e.preventDefault();
-          const name = this.fullname.value;
-          const email = this.email.value;
-          const message = this.message.value;
-          const subject = encodeURIComponent('Contact Form Message from ' + name);
-          const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
-          window.location.href = `mailto:nafamubarokhusni@gmail.com?subject=${subject}&body=${body}`;
-        });
-        </script>
 
       </article>
 
