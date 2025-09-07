@@ -336,6 +336,10 @@ main {
   border-radius: 20px;
 }
 
+.avatar-box img {
+  border-radius: 20px;
+}
+
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
@@ -542,7 +546,10 @@ main {
 
 .service-icon-box { margin-bottom: 10px; }
 
-.service-icon-box img { margin: auto; }
+.service-icon-box img { 
+  margin: auto;
+  border-radius: 12px;
+}
 
 .service-content-box { text-align: center; }
 
@@ -591,6 +598,10 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 14px;
   box-shadow: var(--shadow-1);
+}
+
+.testimonials-avatar-box img {
+  border-radius: 14px;
 }
 
 .testimonials-item-title { margin-bottom: 7px; }
@@ -703,6 +714,10 @@ main {
   box-shadow: var(--shadow-2);
 }
 
+.modal-avatar-box img {
+  border-radius: 14px;
+}
+
 .modal-img-wrapper > img { display: none; }
 
 .modal-title { margin-bottom: 4px; }
@@ -752,6 +767,7 @@ main {
   width: 100%;
   filter: grayscale(1);
   transition: var(--transition-1);
+  border-radius: 12px;
 }
 
 .clients-item img:hover { filter: grayscale(0); }
@@ -1005,6 +1021,7 @@ main {
   height: 100%;
   object-fit: cover;
   transition: var(--transition-1);
+  border-radius: 16px;
 }
 
 .project-item > a:hover img { transform: scale(1.1); }
@@ -1072,6 +1089,7 @@ main {
   height: 100%;
   object-fit: cover;
   transition: var(--transition-1);
+  border-radius: 12px;
 }
 
 .blog-post-item > a:hover .blog-banner-box img { transform: scale(1.1); }
