@@ -1,4 +1,4 @@
-# Husni Na'fa Mubarok - Personal Portfolio
+# Husni Nafa Mubarok - Personal Portfolio
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/nafamubarokhusni/hnm.portofolio)
 ![GitHub stars](https://img.shields.io/github/stars/nafamubarokhusni/hnm.portofolio?style=social)
