@@ -37,8 +37,7 @@ I'm a Data Scientist from Garut, Indonesia, specializing in data analysis, machi
 
 ## 📸 Demo
 
-![Portfolio Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![Portfolio Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+![Portfolio Desktop Demo](./website-demo-image/Thumbnail.png "Desktop Demo")
 
 ## 🚀 Getting Started
 
